@@ -11,7 +11,7 @@ function myFunction(){
         renderHTML(myObj);			
 	  }			
    };
-   req.open('GET','student.json');
+   req.open('GET','https://akashchourasia.github.io/linkedin/student.json');
    req.send();
 }
 function renderHTML(myObj){
