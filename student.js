@@ -1,6 +1,5 @@
 var info = document.getElementById("student_table");
 var clk = document.getElementById("btn");
-document.getElementById("count").innerHTML = 0;
 
 function myFunction(){
 	var req = new XMLHttpRequest();
@@ -18,7 +17,7 @@ function renderHTML(myObj){
 	var htmlstring = "";
 	var i;
 	for(i=0; i < myObj.length; i++){
-		htmlstring = htmlstring + "<tr><td>"+myObj[i].Name + "</td><td>" + myObj[i].DOB + "</td><td>" + myObj[i].Gender + "</td><td>" + myObj[i].address "</td.</tr>" ;
+		htmlstring = htmlstring + "<tr><td>"+myObj[i].Name;
 	}
     if(i == myObj.length){
        document.getElementById("count").innerHTML = i;
