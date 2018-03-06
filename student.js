@@ -18,7 +18,7 @@ function renderHTML(myObj){
 	var htmlstring = "";
 	var i;
 	for(i=0; i < myObj.length; i++){
-		htmlstring = htmlstring + "<tr><td>"+myObj[i].Name;
+		htmlstring = htmlstring + "<tr><td>"+myObj[i].Name + "</td><td>" + myObj[i].DOB + "</td><td>" + myObj[i].Gender +"</td><td>" + myObj[i].address+ "</td></tr>" ;
 	}
     if(i == myObj.length){
        document.getElementById("count").innerHTML = i;
