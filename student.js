@@ -3,6 +3,7 @@ var clk = document.getElementById("btn");
 
 function myFunction(){
 	var req = new XMLHttpRequest();
+	req.open('GET','https://akashchourasia.github.io/linkedin/student.json');
 	req.onreadystatechange = function(){
 	if (req.readyState == 4 && req.status == 200){
 		var myObj = JSON.parse(req.responseText);
