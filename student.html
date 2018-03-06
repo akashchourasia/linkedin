@@ -4,23 +4,70 @@
  <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <meta http-equiv="X-UA-Compatible" content ="ie=edge">
+<style>
+#a{
+background-color:black;
+color:white;
+font-size: 20px;
+}
+h4{
+text-align:center;
+color: white;
+}
+h1{
+font-family:"Lucida Sans Unicode", "Lucida Grande", sans-serif;
+font-size: 70px;
+background-color: rgb(10,10,10);
+    border-color:white;
+    width:100%;
+	margin-bottom:5px;
+}
+body{
+background-color: black;
+}
+.white-text{
+color:white;
+}
+#btn{
+    background-color: rgb(32,32,32);
+    border-color:white;
+    width:100%;
+    border:none;
+    height:40px;
+    color: white;
+font-size: 20px;
+margin-top: 0px;
+margin-bottom:5px;
+}
+#myInput{
+background-color: white;
+    border-color:white;
+    width:100%;
+    border:none;
+    height:40px;
+    color: black;
+font-size: 20px;
+text-align: center;
+margin-bottom: 5px;
+}
+</style>
 <body>
 <div class="container">
 	<div class="table-responsive">
-      <h1>Student Record</h1>
-<button id="btn" type="button" onclick="myFunction()">Get Student's Data</button>
-<input id="myInput"type="text" align="right" width="48" height="48" placeholder="Search ur student" required>
+      <div><center><h1 class="white-text">MOST POPULAR LINKIN PARK SONGS</h1></center></div>
+<button id="btn" type="button" onclick="myFunction()">Get your Songs List</button>
+<input id="myInput" type="text" onkeyup="findText()" align="right" width="48" height="48" placeholder="Search your Song" required>
       <table class="table table-bordered table-striped" id="student_table">
-        <tr>
-          <th>Name</th>
-          <th>DOB</th>
-          <th>Gender</th>
-          <th>address</th>
+        <tr id="a">
+          <th>Song</th>
+          <th>Album</th>
+          <th>Singer</th>
+          <th>Year Released</th>
 	</tr>
       </table>
   </div>
 </div>
-<h4>No.Of Customers:</h4><h4 id="count"></h4>
+<h4>No. of Songs Found</h4><h4 id="count"></h4>
 <script src="student.js"></script>
   </body>
   </html>

@@ -1,73 +1,72 @@
 [
 	{
 		
-		"Name":"abha",
-		"DOB":"01/01/1998",
-		"Gender":"female",
-		"address":"Raipur"
+		"Song":"Numb",
+		"Album":"Meteora",
+		"Singer":"Chestor Bennington",
+		"Year_Released":"2003"
 	},
 	{
 		
-		"Name":"abhishek",
-		"DOB":"01/02/1998",
-		"Gender":"male",
-		"address":"bhilai"
+		"Song":"In the End",
+		"Album":"Hybrid Theory",
+		"Singer":"Chestor Bennington,Mike Shinoda",
+		"Year_Released":"2000"
 	},
 	{
 	
-		"Name":"aditya",
-		"DOB":"27/09/1998",
-		"Gender":"male",
-		"address":"patan"
+		"Song":"Burn It Down",
+		"Album":"Living Things",
+		"Singer":"Chestor Bennington",
+		"Year_Released":"2012"
 	},
 	{
 	
-		"Name":"akash",
-		"DOB":"05/01/1998",
-		"Gender":"male",
-		"address":"rjn"
+		"Song":"Talking to Myself",
+		"Album":"One More Light",
+		"Singer":"Chestor Bennington",
+		"Year_Released":"2017"
 	},	
 	{
 		
-		"Name":"aman",
-		"DOB":"01/01/1998",
-		"Gender":"male",
-		"address":"bhilai"
+		"Song":"Heavy",
+		"Album":"One More Light",
+		"Singer":"Chestor Bennington,Kiiara",
+		"Year_Released":"2017"
 	},
 	
 	{
 		
-		"Name":"amrita",
-		"DOB":"01/05/1998",
-		"Gender":"female",
-		"address":"korba"
+		"Song":"The Messenger",
+		"Album":"A Thousand Suns",
+		"Singer":"Chestor Bennington",
+		"Year_Released":"2010"
 	},
 	{
 		
-		"Name":"aniket",
-		"DOB":"07/10/1998",
-		"Gender":"male",
-		"address":"jaipur"
+		"Song":"Battle Symphony",
+		"Album":"One More Light",
+		"Singer":"Chestor Bennington",
+		"Year_Released":"2017"
 	},
 	{
-		
-		"Name":"ashly",
-		"DOB":"06/11/1998",
-		"Gender":"male",
-		"address":"jabalpur"
+		"Song":"One More Light",
+		"Album":"One More Light",
+		"Singer":"Chestor Bennington",
+		"Year_Released":"2017"
 	},
    	{
 		
-		"Name":"ayush",
-		"DOB":"01/01/1998",
-		"Gender":"male",
-		"address":"bilaspur"
+		"Song":"What I've Done",
+		"Album":"Minutes to Midnight",
+		"Singer":"Chestor Bennington",
+		"Year_Released":"2007"
 	},
 	{
+		"Song":"Castle of Glass",
+		"Album":"Living Things",
+		"Singer":"Chestor Bennington",
+		"Year_Released":"2012"
 		
-		"Name":"bhavesh",
-		"DOB":"01/01/1998",
-		"Gender":"male",
-		"address":"durg"
 	}
 ]
